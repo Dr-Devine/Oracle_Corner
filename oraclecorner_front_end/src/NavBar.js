@@ -11,10 +11,10 @@ const NavBar = (props) => {
       </link>
       <ul>
       <li className="Home">
-          <a onClick="/" href="/Home" >Home</a>
+          <a  href="/Home" >Home</a>
         </li>
         <li className="Tarot">
-          <a href="/Tarot">Tarot</a>
+          <a href="/tarots">Tarot</a>
         </li>
         <li className="Sigil">
           <a href="/Sigil">Sigil</a>

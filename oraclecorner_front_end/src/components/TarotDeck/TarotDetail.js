@@ -1,33 +1,33 @@
 import React from 'react';
 import Tarot from "./Tarot";
 
-const TarotDetail = ({tarot, handleDelete}) => {
+const TarotDetail = ({ tarot, handleDelete }) => {
 
-    if(tarot){
+    if (tarot) {
 
-      
 
-          const onDelete = () => {
+
+        const onDelete = () => {
             handleDelete(tarot.id)
-            }
+        }
 
-          
 
-        
-        return(
 
-            <div className = "component">
-                <Tarot tarot={tarot}/>
+
+        return (
+
+            <div className="component">
+                <Tarot tarot={tarot} />
                 <ul>
-                
+
                 </ul>
                 <button onClick={onDelete}>Delete {tarot.name}</button>
             </div>
-            
+
         )
 
     }
-    return(
+    return (
         <p>waiting...</p>
     )
 

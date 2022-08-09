@@ -4,6 +4,7 @@ package com.example.oracle.models;
 
 
 import javax.persistence.*;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,17 +31,28 @@ public class Tarot {
     @Column(name = "description")
     private String description;
 
+    @Column(name = "image")
+    private String URLImage;
 
-    public Tarot(String name, int value, String meaning, String suit, String description) {
+    public Tarot(String name, int value, String meaning, String suit, String description, String URLImage) {
 
         this.name = name;
         this.value = value;
         this.meaning = meaning;
         this.suit = suit;
         this.description = description;
+        this.URLImage = URLImage;
     }
     public Tarot(){
 
+    }
+
+    public String getURLImage() {
+        return URLImage;
+    }
+
+    public void setURLImage(String URLImage) {
+        this.URLImage = URLImage;
     }
 
     public Long getId() {

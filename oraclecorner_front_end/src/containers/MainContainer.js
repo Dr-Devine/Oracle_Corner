@@ -4,8 +4,8 @@ import NavBar from '../NavBar.js';
 import Request from '../helpers/request.js';
 import Coinflip from '../components/coinFlip/Coinflip.js';
 import TarotContainer from './TarotContainer.js';
-import TarotForm from '../TarotDeck/TarotForm.js';
-import TarotDetail from '../TarotDeck/TarotDetail.js'
+import TarotDetail from '../components/TarotDeck/TarotDetail.js'
+
 
 
 
@@ -14,8 +14,10 @@ const MainContainer = () => {
     const [tarots, setTarots] = useState([])
   
     useEffect(() => {
-      // getTarots()
+      getTarots()
     }, [])
+
+    
   
    
   
@@ -33,12 +35,7 @@ const MainContainer = () => {
         })
     }
   
-    const createTarot = (tarot) => {
-      console.log("create tarot called", tarot);
-      const request = new Request();
-      request.post("/api/tarots", tarot)
-      .then(() => window.location = '/tarots')
-    }
+    
   
     const handleDelete = (id) => {
       const request = new Request();
@@ -55,21 +52,32 @@ const MainContainer = () => {
     };
   
       return (
+
         <Router>
           <NavBar/>
-        <Routes>
-        <Route path="/tarots/:id" element={
-             <TarotDetailWrapper/>
+          <Routes>
+
+         
+      
+      <Route path="/tarots/:id" element={
+           <TarotDetailWrapper/>
+        
         }/>
+
+
         <Route path="/coinflip" element={
           <Coinflip/>
         }/>
        
       
         
-        <Route path="/tarots" element={<TarotContainer tarots={tarots}/>}/>
+        <Route path="/tarots" element={<TarotContainer tarots={tarots}/>
+      }/>
+
   
         </Routes>
+
+      
           </Router>
          
       )

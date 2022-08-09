@@ -17,6 +17,7 @@ const TarotList = ({tarots}) => {
 
 
 	return (
+		
 		<ul className='component-list'>
 			{tarotElements}
 		</ul>

@@ -21,50 +21,116 @@ public class DataLoader implements ApplicationRunner{
 
     public void run(ApplicationArguments args) {
 
+        Tarot fool = new Tarot(
+                "The Fool",
+                0,
+                "Folly, mania, extravagance, intoxication, delirium, frenzy.",
+                "Major",
+                "A young man in gorgeous vestments pauses at the brink of a precipice among the great heights of the world",
+                "http://www.learntarot.com/bigjpgs/maj00.jpg");
+        tarotRepository.save(fool);
 
-        Tarot swords5 = new Tarot("Five of Swords",5,
-                "Degradation, destruction, revocation, infamy, dishonour, loss, with the variants and analogues of these.","Swords",
-                "A disdainful man looks after two retreating and dejected figures. Their swords lie upon the ground. He carries two others on his left shoulder, and a third sword is in his right hand, point to earth. He is the master in possession of the field.");
-        tarotRepository.save(swords5);
+        Tarot magician = new Tarot(
+                "The Magician",
+                1,
+                "Skill, diplomacy, address, subtlety; sickness, pain, loss, disaster, snares of enemies",
+                "Major",
+                "Skill, diplomacy, address, subtlety; sickness, pain, loss, disaster, snares of enemies",
+                "http://www.learntarot.com/bigjpgs/maj01.jpg");
+        tarotRepository.save(magician);
 
-        Tarot sw4 = new Tarot("Four or Swords",
+        Tarot highPriestess = new Tarot(
+                "The High Priestess",
+                2,
+                "Secrets, mystery, the future as yet unrevealed; the woman who interests the Querent",
+                "Major",
+                "She has the lunar crescent at her feet, a horned diadem on her head, with a globe in the middle place, and a large solar cross on her breast.",
+                "http://www.learntarot.com/bigjpgs/maj02.jpg");
+        tarotRepository.save(highPriestess);
+
+        Tarot empress = new Tarot(
+                "The Empress",
+                3,
+                "Fruitfulness, action, initiative, length of days",
+                "Major",
+                "A stately figure, seated, having rich vestments and royal aspect, as of a daughter of heaven and earth",
+                "http://www.learntarot.com/bigjpgs/maj03.jpg");
+        tarotRepository.save(empress);
+
+        Tarot emperor = new Tarot(
+                "The Emperor",
                 4,
-                "Vigilance, retreat, solitude, hermit's repose, exile, tomb and coffin. It is these last that have suggested the design.",
-                "Swords",
-                "The effigy of a knight in the attitude of prayer, at full length upon his tomb");
-        tarotRepository.save(sw4);
+                "Stability, power, protection, realization; a great person; aid, reason, conviction; also authority and will.",
+                "Major",
+                "Stability, power, protection, realization; a great person; aid, reason, conviction; also authority and will.",
+                "http://www.learntarot.com/bigjpgs/maj04.jpg");
+        tarotRepository.save(emperor);
 
-        Tarot wd5 = new Tarot("Five of Wands",
+        Tarot hierophant = new Tarot(
+                "The Hierophant",
                 5,
-                "Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune. In this sense it connects with the battle of life. Hence some attributions say that it is a card of gold, gain, opulence.",
-                "Wands",
-                "A posse of youths, who are brandishing staves, as if in sport or strife. It is mimic warfare");
-        tarotRepository.save(wd5);
+                "Marriage, alliance, captivity, servitude; by another account, mercy and goodness",
+                "Major",
+                "Marriage, alliance, captivity, servitude; by another account, mercy and goodness",
+                "http://www.learntarot.com/bigjpgs/maj05.jpg");
+        tarotRepository.save(hierophant);
 
-        Tarot cups6 = new Tarot("Six of Cups",
-                6,
-                "A card of the past and of memories. Looking back on childhood, happiness, enjoyment, but coming rather from the past. Things that have vanished.",
-                "Cups",
-                "Children in an old garden, their cups filled with flowers");
-        tarotRepository.save(cups6);
-
-        Tarot lovers = new Tarot("The Lovers",
+        Tarot lovers = new Tarot(
+                "The Lovers",
                 6,
                 "Attraction, love, beauty, trials overcome.",
                 "Major",
-                "In the foreground are two human figures, male and female, unveiled before each other, as if Adam and Eve when they first occupied the paradise of the earthly body.");
+                "In the foreground are two human figures, male and female, unveiled before each other, as if Adam and Eve when they first occupied the paradise of the earthly body.",
+                "http://www.learntarot.com/bigjpgs/maj06.jpg");
         tarotRepository.save(lovers);
 
-        Tarot cups10 = new Tarot("Ten of Cups",
+        Tarot swords05 = new Tarot(
+                "Five of Swords",
+                5,
+                "Degradation, destruction, revocation, infamy, dishonour, loss, with the variants and analogues of these.",
+                "Swords",
+                "A disdainful man looks after two retreating and dejected figures. Their swords lie upon the ground. He carries two others on his left shoulder, and a third sword is in his right hand, point to earth. He is the master in possession of the field.",
+                "http://www.learntarot.com/bigjpgs/swords05.jpg");
+        tarotRepository.save(swords05);
+
+        Tarot swords04 = new Tarot(
+                "Four or Swords",
+                4,
+                "Vigilance, retreat, solitude, hermit's repose, exile, tomb and coffin. It is these last that have suggested the design.",
+                "Swords",
+                "The effigy of a knight in the attitude of prayer, at full length upon his tomb",
+                "http://www.learntarot.com/bigjpgs/swords04.jpg");
+        tarotRepository.save(swords04);
+
+        Tarot wands05 = new Tarot(
+                "Five of Wands",
+                5,
+                "Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune. In this sense it connects with the battle of life. Hence some attributions say that it is a card of gold, gain, opulence.",
+                "Wands",
+                "A posse of youths, who are brandishing staves, as if in sport or strife. It is mimic warfare",
+                "http://www.learntarot.com/bigjpgs/wands05.jpg");
+        tarotRepository.save(wands05);
+
+        Tarot cups06 = new Tarot(
+                "Six of Cups",
+                6,
+                "A card of the past and of memories. Looking back on childhood, happiness, enjoyment, but coming rather from the past. Things that have vanished.",
+                "Cups",
+                "Children in an old garden, their cups filled with flowers",
+                "http://www.learntarot.com/bigjpgs/cups06.jpg");
+        tarotRepository.save(cups06);
+
+        Tarot cups10 = new Tarot(
+                "Ten of Cups",
                 10,
                 "Contentment, repose of the entire heart. The perfection of that state. Also perfection of human love and friendship.",
                 "Cups",
-                "Appearance of Cups in a rainbow. It is contemplated in wonder and ecstasy by a man and woman below, evidently husband and wife.");
+                "Appearance of Cups in a rainbow. It is contemplated in wonder and ecstasy by a man and woman below, evidently husband and wife.",
+                "http://www.learntarot.com/bigjpgs/cups10.jpg");
         tarotRepository.save(cups10);
 
     }
 
 
 }
-
 
