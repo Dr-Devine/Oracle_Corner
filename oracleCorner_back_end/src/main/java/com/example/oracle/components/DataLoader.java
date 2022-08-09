@@ -84,6 +84,51 @@ public class DataLoader implements ApplicationRunner{
                 "http://www.learntarot.com/bigjpgs/maj06.jpg");
         tarotRepository.save(lovers);
 
+        Tarot chariot = new Tarot(
+                "The Chariot",
+                7,
+                "Succour, providence also war, triumph, presumption, vengeance, trouble.",
+                "Major",
+                "A man in a chariot being drawn by 2 beasts",
+                "http://www.learntarot.com/bigjpgs/maj07.jpg");
+        tarotRepository.save(chariot);
+
+        Tarot strength = new Tarot(
+                "Strength",
+                8,
+                "Power, energy, action, courage, magnanimity; also complete success and honours.",
+                "Major",
+                "A woman effortlessly and with no fear, holding open the the mouth of a lion.",
+                "http://www.learntarot.com/bigjpgs/maj08.jpg");
+        tarotRepository.save(strength);
+
+        Tarot hermit = new Tarot(
+                "The Hermit",
+                9,
+                "Prudence, circumspection; also and especially treason, dissimulation, roguery, corruption.",
+                "Major",
+                "A solitary figure stands holding a lap to light their way",
+                "http://www.learntarot.com/bigjpgs/maj09.jpg");
+        tarotRepository.save(hermit);
+
+        Tarot wheelOfFortune = new Tarot(
+                "The Wheel of Fortune",
+                10,
+                "Destiny, fortune, success, elevation, luck, felicity.",
+                "Major",
+                "A wheel that symbolises the rise and fall or fate and fortune",
+                "http://www.learntarot.com/bigjpgs/maj10.jpg");
+        tarotRepository.save(wheelOfFortune);
+
+        Tarot justice = new Tarot(
+                "Justice",
+                11,
+                "Equity, rightness, probity, executive; triumph of the deserving side in law.",
+                "Major",
+                "A seated figure holding the scales of all that is just and fair",
+                "http://www.learntarot.com/bigjpgs/maj11.jpg");
+        tarotRepository.save(justice);
+
         Tarot swords05 = new Tarot(
                 "Five of Swords",
                 5,
