@@ -25,7 +25,7 @@ public class OracleApplicationTests {
 
 	@Test
 	public void getName(){
-		Tarot tarot = new Tarot("five of swords",5, "have a good time guys","swords", "five of swords is a good time");
+		Tarot tarot = new Tarot("five of swords",5, "have a good time guys","swords", "five of swords is a good time", "https://labyrinthos.co/blogs/tarot-card-meanings-list/five-of-swords-meaning-tarot-card-meanings");
 		assertEquals("five of swords", tarot.getName());
 	}
 
