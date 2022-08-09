@@ -129,6 +129,97 @@ public class DataLoader implements ApplicationRunner{
                 "http://www.learntarot.com/bigjpgs/maj11.jpg");
         tarotRepository.save(justice);
 
+        Tarot hangedMan = new Tarot(
+                "The Hanged Man",
+                12,
+                "Wisdom, circumspection, discernment, trials, sacrifice, intuition, divination, prophecy.",
+                "Major",
+                "A man hangs upside down by his leg",
+                "http://www.learntarot.com/bigjpgs/maj12.jpg");
+        tarotRepository.save(hangedMan);
+
+        Tarot death = new Tarot(
+                "Death",
+                13,
+                "End, mortality, destruction, corruption also, for a man, the loss of a benefactor for a woman, many contrarieties; for a maid, failure of marriage projects.",
+                "Major",
+                "The figure of Death itself holding a scythe",
+                "http://www.learntarot.com/bigjpgs/maj13.jpg");
+        tarotRepository.save(death);
+
+        Tarot temperance = new Tarot(
+                "Temperance",
+                14,
+                "Economy, moderation, frugality, management, accommodation.",
+                "Major",
+                "A winged angel, with the sign of the sun upon his forehead and on his breast the square and triangle of the septenary.",
+                "http://www.learntarot.com/bigjpgs/maj14.jpg");
+        tarotRepository.save(temperance);
+
+        Tarot devil = new Tarot(
+                "The Devil",
+                15,
+                "Ravage, violence, vehemence, extraordinary efforts, force, fatality; that which is predestined but is not for this reason evil.",
+                "Major",
+                "The Devil stands tall before a man and woman. Both enslaved by the comforts he offers whilst having everything it takes to break free",
+                "http://www.learntarot.com/bigjpgs/maj15.jpg");
+        tarotRepository.save(devil);
+
+        Tarot tower = new Tarot(
+                "The Tower",
+                16,
+                "Misery, distress, indigence, adversity, calamity, disgrace, deception, ruin. It is a card in particular of unforeseen catastrophe.",
+                "Major",
+                "A tower being destoyed by a storm and by the sea. It's occupants thrown by the winds to fall to their deaths... lol",
+                "http://www.learntarot.com/bigjpgs/maj16.jpg");
+        tarotRepository.save(tower);
+
+        Tarot star = new Tarot(
+                "The Star",
+                17,
+                "",
+                "Major",
+                "A great, radiant star of eight rays, surrounded by seven lesser stars--also of eight rays.",
+                "http://www.learntarot.com/bigjpgs/maj17.jpg");
+        tarotRepository.save(star);
+
+        Tarot moon = new Tarot(
+                "The Moon",
+                18,
+                "Hidden enemies, danger, calumny, darkness, terror, deception, occult forces, error.",
+                "Major",
+                "A cresent moon rises into the sky covering the night in its celestial light",
+                "http://www.learntarot.com/bigjpgs/maj18.jpg");
+        tarotRepository.save(moon);
+
+        Tarot sun = new Tarot(
+                "The Sun",
+                19,
+                "Material happiness, fortunate marriage, contentment.",
+                "Major",
+                "A child atop a horse with a red standard",
+                "http://www.learntarot.com/bigjpgs/maj19.jpg");
+        tarotRepository.save(sun);
+
+        Tarot judgment = new Tarot(
+                "The last Judgement",
+                20,
+                "Change of position, renewal, outcome. Another account specifies total loss though lawsuit.",
+                "Major",
+                "An arch angel heralds the souls of the dead from coffins",
+                "http://www.learntarot.com/bigjpgs/maj20.jpg");
+        tarotRepository.save(judgment);
+
+        Tarot world = new Tarot(
+                "The World",
+                21,
+                "Assured success, recompense, voyage, route, emigration, flight, change of place.",
+                "Major",
+                "A naked woman wrapped in a purple cloth, dancing inside a large laurel wreath.",
+                "http://www.learntarot.com/bigjpgs/maj21.jpg"
+        );
+        tarotRepository.save(world);
+
         Tarot swords05 = new Tarot(
                 "Five of Swords",
                 5,
