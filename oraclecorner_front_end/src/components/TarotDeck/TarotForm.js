@@ -60,5 +60,5 @@ const TarotForm = ({ tarots, onCreate }) => {
         </>
     )
 }
-
+//testing
 export default TarotForm;
