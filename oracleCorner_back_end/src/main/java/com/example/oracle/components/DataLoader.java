@@ -220,14 +220,41 @@ public class DataLoader implements ApplicationRunner{
         );
         tarotRepository.save(world);
 
-        Tarot sword01 = new Tarot(
+        Tarot swords01 = new Tarot(
                 "The Ace of Swords",
                 1,
                 "Triumph, the excessive degree in everything, conquest, triumph of force. It is a card of great force, in love as well as in hatred.",
                 "Swords",
                 "A hand issues from a cloud, grasping as word, the point of which is encircled by a crown.",
                 "http://www.learntarot.com/bigjpgs/swords01.jpg");
-        tarotRepository.save(sword01);
+        tarotRepository.save(swords01);
+
+        Tarot swords02 = new Tarot(
+                "Two of Swords",
+                2,
+                "Being at a stalemate, feeling afraid to act, reaching an impasse",
+                "Swords",
+                "A hoodwinked female figure balances two swords upon her shoulders.",
+                "http://www.learntarot.com/bigjpgs/swords02.jpg");
+        tarotRepository.save(swords02);
+
+        Tarot swords03 = new Tarot(
+                "Three of Swords",
+                3,
+                "Removal, absence, delay, division, rupture, dispersion, and all that the design signifies naturally, being too simple and obvious to call for specific enumeration.",
+                "Swords",
+                "Three swords piercing a heart; cloud and rain behind.",
+                "http://www.learntarot.com/bigjpgs/swords03.jpg");
+        tarotRepository.save(swords03);
+
+        Tarot swords04 = new Tarot(
+                "Four of Swords",
+                4,
+                "Vigilance, retreat, solitude, hermit's repose, exile, tomb and coffin. It is these last that have suggested the design.",
+                "Swords",
+                "The effigy of a knight in the attitude of prayer, at full length upon his tomb.",
+                "http://www.learntarot.com/bigjpgs/swords04.jpg");
+        tarotRepository.save(swords04);
 
         Tarot swords05 = new Tarot(
                 "Five of Swords",
@@ -238,14 +265,131 @@ public class DataLoader implements ApplicationRunner{
                 "http://www.learntarot.com/bigjpgs/swords05.jpg");
         tarotRepository.save(swords05);
 
-        Tarot swords04 = new Tarot(
-                "Four or Swords",
-                4,
-                "Vigilance, retreat, solitude, hermit's repose, exile, tomb and coffin. It is these last that have suggested the design.",
+        Tarot swords06 = new Tarot(
+                "Six of Swords",
+                6,
+                "journey by water, route, way, envoy, commissionary, expedient.",
                 "Swords",
-                "The effigy of a knight in the attitude of prayer, at full length upon his tomb",
-                "http://www.learntarot.com/bigjpgs/swords04.jpg");
-        tarotRepository.save(swords04);
+                "A ferryman carrying passengers in his punt to the further shore. The course is smooth, and seeing that the freight is light, it may be noted that the work is not beyond his strength.",
+                "http://www.learntarot.com/bigjpgs/swords06.jpg");
+        tarotRepository.save(swords06);
+
+        Tarot swords07 = new Tarot(
+                "Seven of Swords",
+                7,
+                "Design, attempt, wish, hope, confidence; also quarrelling, a plan that may fail, annoyance. The design is uncertain in its import, because the significations are widely at variance with each other.",
+                "Swords",
+                "A man in the act of carrying away five swords rapidly; the two others of the card remain stuck in the ground. A camp is close at hand.",
+                "http://www.learntarot.com/bigjpgs/swords07.jpg");
+        tarotRepository.save(swords07);
+
+        Tarot swords08 = new Tarot(
+                "Eight of Swords",
+                8,
+                "Bad news, violent chagrin, crisis, censure, power in trammels, conflict, calumny; also sickness.",
+                "Swords",
+                "A woman, bound and hoodwinked, with the swords of the card about her. Yet it is rather a card of temporary durance than of irretrievable bondage.",
+                "http://www.learntarot.com/bigjpgs/swords08.jpg");
+        tarotRepository.save(swords08);
+
+        Tarot swords09 = new Tarot(
+                "Nine of Swords",
+                9,
+                "Death, failure, miscarriage, delay, deception, disappointment, despair.",
+                "Swords",
+                "One seated on her couch in lamentation, with the swords over her. She is as one who knows no sorrow which is like unto hers. It is a card of utter desolation.",
+                "http://www.learntarot.com/bigjpgs/swords09.jpg");
+        tarotRepository.save(swords09);
+
+        Tarot swords10 = new Tarot(
+                "Ten of Swords",
+                10,
+                "Whatsoever is intimated by the design; also pain, affliction, tears, sadness, desolation. It is not especially a card of violent death.",
+                "Swords",
+                "A prostrate figure, pierced by all the swords belonging to the card.",
+                "http://www.learntarot.com/bigjpgs/swords10.jpg");
+        tarotRepository.save(swords10);
+
+        Tarot swordsPage = new Tarot(
+                "Page of Swords",
+                11,
+                "Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging.",
+                "Swords",
+                "A lithe, active figure holds a sword upright in both hands, while in the act of swift walking.",
+                "http://www.learntarot.com/bigjpgs/swords11.jpg");
+        tarotRepository.save(swordsPage);
+
+        Tarot swordsKnight = new Tarot(
+                "Knight of Swords",
+                12,
+                "Skill, bravery, capacity, defence, address, enmity, wrath, war, destruction, opposition, resistance, ruin. There is therefore a sense in which the card signifies death, but it carries this meaning only in its proximity to other cards of fatality.",
+                "Swords",
+                "He is riding in full course, as if scattering his enemies. In the design he is really a prototypical hero of romantic chivalry. He might almost be Galahad, whose sword is swift and sure because he is clean of heart.",
+                "http://www.learntarot.com/bigjpgs/swords12.jpg");
+        tarotRepository.save(swordsKnight);
+
+                Tarot swordsQueen = new Tarot(
+                "Queen of Swords",
+                13,
+                "Widowhood, female sadness and embarrassment, absence, sterility, mourning, privation, separation.",
+                "Swords",
+                "Her right hand raises the weapon vertically and the hilt rests on an arm of her royal chair the left hand is extended, the arm raised her countenance is severe but chastened.",
+                "http://www.learntarot.com/bigjpgs/swords13.jpg");
+        tarotRepository.save(swordsQueen);
+
+        Tarot swordsKing = new Tarot(
+                "King of Swords",
+                14,
+                "Whatsoever arises out of the idea of judgment and all its connexions-power, command, authority, militant intelligence, law, offices of the crown, and so forth.",
+                "Swords",
+                "He sits in judgment, holding the unsheathed sign of his suit. He recalls, of course, the conventional Symbol of justice in the Trumps Major, and he may represent this virtue, but he is rather the power of life and death, in virtue of his office.",
+                "http://www.learntarot.com/bigjpgs/swords14.jpg");
+        tarotRepository.save(swordsKing);
+
+        Tarot wands01 = new Tarot(
+                "Ace of Wands",
+                1,
+                "Creation, invention, enterprise, the powers which result in these. Principle, beginning, source, birth, family, origin, and in a sense the virility which is behind the. The starting point of enterprises.",
+                "Wands",
+                "A hand issuing from a cloud grasps a stout wand or club.",
+                "http://www.learntarot.com/bigjpgs/wands01.jpg");
+        tarotRepository.save(wands01);
+
+        Tarot wands02 = new Tarot(
+                "Two of Wands",
+                2,
+                "Between the alternative readings there is no marriage possible; on the one hand, riches, fortune, magnificence; on the other, physical suffering, disease, chagrin, sadness, mortification.",
+                "Wands",
+                "A tall man looks from a battlemented roof over sea and shore; he holds a globe in his right hand, while a staff in his left rests on the battlement",
+                "http://www.learntarot.com/bigjpgs/wands02.jpg");
+        tarotRepository.save(wands02);
+
+        Tarot wands03 = new Tarot(
+                "Three of Wands",
+                3,
+                "He symbolizes established strength, enterprise, effort, trade, commerce, discovery; those are his ships, bearing his merchandise, which are sailing over the sea. The card also signifies able co-operation in business",
+                "Wands",
+                "A calm, stately personage, with his back turned, looking from a cliff's edge at ships passing over the sea. Three staves are planted in the ground, and he leans slightly on one of them.",
+                "http://www.learntarot.com/bigjpgs/wands03.jpg");
+        tarotRepository.save(wands03);
+
+        Tarot wands04 = new Tarot(
+                "Four of Wands",
+                4,
+                "They are for once almost on the surface--country life, haven of refuge, a species of domestic harvest-home, repose, concord, harmony, prosperity, peace, and the perfected work of these.",
+                "Wands",
+                "From the four great staves planted in the foreground there is a great garland suspended; two female figures uplift nosegays; at their side is a bridge over a moat, leading to an old manorial house.",
+                "http://www.learntarot.com/bigjpgs/wands04.jpg");
+        tarotRepository.save(wands04);
+
+//        Tarot wands01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Wands",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/wands01.jpg");
+//        tarotRepository.save(wands01);
 
         Tarot wands05 = new Tarot(
                 "Five of Wands",
