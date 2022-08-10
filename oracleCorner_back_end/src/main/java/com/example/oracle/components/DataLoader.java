@@ -598,131 +598,131 @@ public class DataLoader implements ApplicationRunner{
                 "http://www.learntarot.com/bigjpgs/cups14.jpg");
         tarotRepository.save(cupsKing);
 
-        //        Tarot pentacles01 = new Tarot(
-//                "Ace of Pentacles",
-//                01,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents01.jpg");
-//        tarotRepository.save(pentacles01);
+        Tarot pentacles01 = new Tarot(
+                "Ace of Pentacles",
+                01,
+                "Perfect contentment, felicity, ecstasy; also speedy intelligence; gold.",
+                "Pentacles",
+                "A hand--issuing, as usual, from a cloud--holds up a pentacle.",
+                "http://www.learntarot.com/bigjpgs/pents01.jpg");
+        tarotRepository.save(pentacles01);
 
-        //        Tarot pentacles02 = new Tarot(
-//                "Two of Pentacles",
-//                02,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents02.jpg");
-//        tarotRepository.save(pentacles02);
+        Tarot pentacles02 = new Tarot(
+                "Two of Pentacles",
+                02,
+                "On the one hand it is represented as a card of gaiety, recreation and its connexions, which is the subject of the design; but it is read also as news and messages in writing, as obstacles, agitation, trouble, embroilment.",
+                "Pentacles",
+                "A young man, in the act of dancing, has a pentacle in either hand, and they are joined by that endless cord which is like the number 8 reversed.",
+                "http://www.learntarot.com/bigjpgs/pents02.jpg");
+        tarotRepository.save(pentacles02);
 
-        //        Tarot pentacles03 = new Tarot(
-//                "Three of Pentacles",
-//                03,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents03.jpg");
-//        tarotRepository.save(pentacles03);
+        Tarot pentacles03 = new Tarot(
+                "Three of Pentacles",
+                03,
+                "Trade, skilled labour; usually, however, regarded as a card of nobility, aristocracy, renown, glory.",
+                "Pentacles",
+                "A sculptor at his work in a monastery. Compare the design which illustrates the Eight of Pentacles. The apprentice or amateur therein has received his reward and is now at work in earnest.",
+                "http://www.learntarot.com/bigjpgs/pents03.jpg");
+        tarotRepository.save(pentacles03);
 
-        //        Tarot pentacles04 = new Tarot(
-//                "Four of Pentacles",
-//                04,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents04.jpg");
-//        tarotRepository.save(pentacles04);
+        Tarot pentacles04 = new Tarot(
+                "Four of Pentacles",
+                04,
+                "The surety of possessions, cleaving to that which one has, gift, legacy, inheritance.",
+                "Pentacles",
+                "A crowned figure, having a pentacle over his crown, clasps another with hands and arms; two pentacles are under his feet. He holds to that which he has.",
+                "http://www.learntarot.com/bigjpgs/pents04.jpg");
+        tarotRepository.save(pentacles04);
 
-        //        Tarot pentacles05 = new Tarot(
-//                "Five of Pentacles",
-//                05,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents05.jpg");
-//        tarotRepository.save(pentacles05);
+        Tarot pentacles05 = new Tarot(
+                "Five of Pentacles",
+                05,
+                "The card foretells material trouble above all, whether in the form illustrated--that is, destitution--or otherwise.",
+                "Pentacles",
+                "Two mendicants in a snow-storm pass a lighted casement.",
+                "http://www.learntarot.com/bigjpgs/pents05.jpg");
+        tarotRepository.save(pentacles05);
 
-        //        Tarot pentacles06 = new Tarot(
-//                "Six of Pentacles",
-//                06,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents06.jpg");
-//        tarotRepository.save(pentacles06);
+        Tarot pentacles06 = new Tarot(
+                "Six of Pentacles",
+                06,
+                "Presents, gifts, gratification another account says attention, vigilance now is the accepted time, present prosperity, etc.",
+                "Pentacles",
+                "A person in the guise of a merchant weighs money in a pair of scales and distributes it to the needy and distressed.",
+                "http://www.learntarot.com/bigjpgs/pents06.jpg");
+        tarotRepository.save(pentacles06);
 
-        //        Tarot pentacles07 = new Tarot(
-//                "Seven of Pentacles",
-//                07,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents07.jpg");
-//        tarotRepository.save(pentacles07);
+        Tarot pentacles07 = new Tarot(
+                "Seven of Pentacles",
+                07,
+                "These are exceedingly contradictory; in the main, it is a card of money, business, barter; but one reading gives altercation, quarrels--and another innocence, ingenuity, purgation.",
+                "Pentacles",
+                "A young man, leaning on his staff, looks intently at seven pentacles attached to a clump of greenery on his right; one would say that these were his treasures and that his heart was there.",
+                "http://www.learntarot.com/bigjpgs/pents07.jpg");
+        tarotRepository.save(pentacles07);
 
-        //        Tarot pentacles08 = new Tarot(
-//                "Eight of Pentacles",
-//                08,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents08.jpg");
-//        tarotRepository.save(pentacles08);
+        Tarot pentacles08 = new Tarot(
+                "Eight of Pentacles",
+                8,
+                "Work, employment, commission, craftsmanship, skill in craft and business, perhaps in the preparatory stage.",
+                "Pentacles",
+                "An artist in stone at his work, which he exhibits in the form of trophies.",
+                "http://www.learntarot.com/bigjpgs/pents08.jpg");
+        tarotRepository.save(pentacles08);
 
-        //        Tarot pentacles09 = new Tarot(
-//                "Nine of Pentacles",
-//                09,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents09.jpg");
-//        tarotRepository.save(pentacles09);
+        Tarot pentacles09 = new Tarot(
+                "Nine of Pentacles",
+                9,
+                "Prudence, safety, success, accomplishment, certitude, discernment.",
+                "Pentacles",
+                "A woman, with a bird upon her wrist, stands amidst a great abundance of grapevines in the garden of a manorial house. It is a wide domain, suggesting plenty in all things. Possibly it is her own possession and testifies to material well-being.",
+                "http://www.learntarot.com/bigjpgs/pents09.jpg");
+        tarotRepository.save(pentacles09);
 
-        //        Tarot pentacles10 = new Tarot(
-//                "Ten of Pentacles",
-//                10,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents10.jpg");
-//        tarotRepository.save(pentacles10);
+        Tarot pentacles10 = new Tarot(
+                "Ten of Pentacles",
+                10,
+                "Gain, riches; family matters, archives, extraction, the abode of a family.",
+                "Pentacles",
+                "A man and woman beneath an archway which gives entrance to a house and domain. They are accompanied by a child, who looks curiously at two dogs accosting an ancient personage seated in the foreground. The child's hand is on one of them.",
+                "http://www.learntarot.com/bigjpgs/pents10.jpg");
+        tarotRepository.save(pentacles10);
 
-        //        Tarot pentaclesPage = new Tarot(
-//                "Page of Pentacles",
-//                11,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents11.jpg");
-//        tarotRepository.save(pentaclesPage);
+        Tarot pentaclesPage = new Tarot(
+                "Page of Pentacles",
+                11,
+                "Application, study, scholarship, reflection another reading says news, messages and the bringer thereof; also rule, management.",
+                "Pentacles",
+                "A youthful figure, looking intently at the pentacle which hovers over his raised hands. He moves slowly, insensible of that which is about him.",
+                "http://www.learntarot.com/bigjpgs/pents11.jpg");
+        tarotRepository.save(pentaclesPage);
 
-        //        Tarot pentaclesKnight = new Tarot(
-//                "Knight of Pentacles",
-//                12,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents12.jpg");
-//        tarotRepository.save(pentaclesKnight);
+        Tarot pentaclesKnight = new Tarot(
+                "Knight of Pentacles",
+                12,
+                "Utility, serviceableness, interest, responsibility, rectitude-all on the normal and external plane.",
+                "Pentacles",
+                "He rides a slow, enduring, heavy horse, to which his own aspect corresponds. He exhibits his symbol, but does not look therein.",
+                "http://www.learntarot.com/bigjpgs/pents12.jpg");
+        tarotRepository.save(pentaclesKnight);
 
-        //        Tarot pentaclesQueen = new Tarot(
-//                "Queen of Pentacles",
-//                14,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents14.jpg");
-//        tarotRepository.save(pentaclesQueen);
+        Tarot pentaclesQueen = new Tarot(
+                "Queen of Pentacles",
+                14,
+                "Opulence, generosity, magnificence, security, liberty.",
+                "Pentacles",
+                "The face suggests that of a dark woman, whose qualities might be summed up in the idea of greatness of soul; she has also the serious cast of intelligence; she contemplates her symbol and may see worlds therein.",
+                "http://www.learntarot.com/bigjpgs/pents14.jpg");
+        tarotRepository.save(pentaclesQueen);
 
-        //        Tarot pentaclesKing = new Tarot(
-//                "King of Pentacles",
-//                14,
-//                "",
-//                "Pentacles",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/pents14.jpg");
-//        tarotRepository.save(pentaclesKing);
+        Tarot pentaclesKing = new Tarot(
+                "King of Pentacles",
+                14,
+                "Valour, realizing intelligence, business and normal intellectual aptitude, sometimes mathematical gifts and attainments of this kind; success in these paths.",
+                "Pentacles",
+                "The figure calls for no special description the face is rather dark, suggesting also courage, but somewhat lethargic in tendency. The bull's head should be noted as a recurrent symbol on the throne.",
+                "http://www.learntarot.com/bigjpgs/pents14.jpg");
+        tarotRepository.save(pentaclesKing);
 
 
 
