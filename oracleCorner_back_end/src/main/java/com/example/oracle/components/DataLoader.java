@@ -472,50 +472,50 @@ public class DataLoader implements ApplicationRunner{
                 "http://www.learntarot.com/bigjpgs/wands14.jpg");
         tarotRepository.save(wands01);
 
-        //        Tarot cups01 = new Tarot(
-//                "",
-//                1,
-//                "",
-//                "Cups",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
-//        tarotRepository.save(cups01);
+        Tarot cups01 = new Tarot(
+                "Ace of Cups",
+                1,
+                "House of the true heart, joy, content, abode, nourishment, abundance, fertility; Holy Table, felicity hereof.",
+                "Cups",
+                "The waters are beneath, and thereon are water-lilies; the hand issues from the cloud, holding in its palm the cup, from which four streams are pouring.",
+                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+        tarotRepository.save(cups01);
 
-        //        Tarot cups01 = new Tarot(
-//                "",
-//                1,
-//                "",
-//                "Cups",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
-//        tarotRepository.save(cups01);
+        Tarot cups02 = new Tarot(
+                "Two of Cups",
+                2,
+                "Love, passion, friendship, affinity, union, concord, sympathy, the interrelation of the sexes",
+                "Cups",
+                "A youth and maiden are pledging one another, and above their cups rises the Caduceus of Hermes.",
+                "http://www.learntarot.com/bigjpgs/cups02.jpg");
+        tarotRepository.save(cups02);
 
-        //        Tarot cups01 = new Tarot(
-//                "",
-//                1,
-//                "",
-//                "Cups",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
-//        tarotRepository.save(cups01);
+        Tarot cups03 = new Tarot(
+                "Three of Cups",
+                3,
+                "The conclusion of any matter in plenty, perfection and merriment; happy issue, victory, fulfilment, solace, healing.",
+                "Cups",
+                "Maidens in a garden-ground with cups uplifted, as if pledging one another.",
+                "http://www.learntarot.com/bigjpgs/cups03.jpg");
+        tarotRepository.save(cups03);
 
-        //        Tarot cups01 = new Tarot(
-//                "",
-//                1,
-//                "",
-//                "Cups",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
-//        tarotRepository.save(cups01);
+        Tarot cups04 = new Tarot(
+                "Four of Cups",
+                4,
+                "Weariness, disgust, aversion, imaginary vexations, as if the wine of this world had caused satiety only.",
+                "Cups",
+                "A young man is seated under a tree and contemplates three cups set on the grass before him; an arm issuing from a cloud offers him another cup. His expression notwithstanding is one of discontent with his environment.",
+                "http://www.learntarot.com/bigjpgs/cups04.jpg");
+        tarotRepository.save(cups04);
 
-        //        Tarot cups01 = new Tarot(
-//                "",
-//                1,
-//                "",
-//                "Cups",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
-//        tarotRepository.save(cups01);
+        Tarot cups05 = new Tarot(
+                "Five of Cups",
+                5,
+                "It is a card of loss, but something remains over; three have been taken, but two are left; it is a card of inheritance, patrimony, transmission, but not corresponding to expectations; with some interpreters it is a card of marriage.",
+                "Cups",
+                "A dark, cloaked figure, looking sideways at three prone cups two others stand upright behind him; a bridge is in the background, leading to a small keep or holding",
+                "http://www.learntarot.com/bigjpgs/cups05.jpg");
+        tarotRepository.save(cups05);
 
         Tarot cups06 = new Tarot(
                 "Six of Cups",
@@ -526,32 +526,32 @@ public class DataLoader implements ApplicationRunner{
                 "http://www.learntarot.com/bigjpgs/cups06.jpg");
         tarotRepository.save(cups06);
 
-        //        Tarot cups01 = new Tarot(
-//                "",
-//                1,
-//                "",
-//                "Cups",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
-//        tarotRepository.save(cups01);
+        Tarot cups07 = new Tarot(
+                "Seven of Cups",
+                7,
+                "airy favours, images of reflection, sentiment, imagination, things seen in the glass of contemplation",
+                "Cups",
+                "Strange chalices of vision, but the images are more especially those of the fantastic spirit.",
+                "http://www.learntarot.com/bigjpgs/cups07.jpg");
+        tarotRepository.save(cups07);
 
-        //        Tarot cups01 = new Tarot(
-//                "",
-//                1,
-//                "",
-//                "Cups",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
-//        tarotRepository.save(cups01);
+        Tarot cups08 = new Tarot(
+                "Eight of Cups",
+                8,
+                "The card speaks for itself on the surface, but other readings are entirely antithetical--giving joy, mildness, timidity, honour, modesty.",
+                "Cups",
+                "A man of dejected aspect is deserting the cups of his felicity, enterprise, undertaking or previous concern.",
+                "http://www.learntarot.com/bigjpgs/cups08.jpg");
+        tarotRepository.save(cups08);
 
-        //        Tarot cups01 = new Tarot(
-//                "",
-//                1,
-//                "",
-//                "Cups",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
-//        tarotRepository.save(cups01);
+        Tarot cups09 = new Tarot(
+                "Nine of Cups",
+                9,
+                "Concord, contentment, physical bien-être; also victory, success, advantage; satisfaction for the Querent or person for whom the consultation is made.",
+                "Cups",
+                "A goodly personage has feasted to his heart's content, and abundant refreshment of wine is on the arched counter behind him, seeming to indicate that the future is also assured.",
+                "http://www.learntarot.com/bigjpgs/cups09.jpg");
+        tarotRepository.save(cups09);
 
         Tarot cups10 = new Tarot(
                 "Ten of Cups",
@@ -562,41 +562,50 @@ public class DataLoader implements ApplicationRunner{
                 "http://www.learntarot.com/bigjpgs/cups10.jpg");
         tarotRepository.save(cups10);
 
-        //        Tarot cups01 = new Tarot(
-//                "",
-//                1,
-//                "",
-//                "Cups",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
-//        tarotRepository.save(cups01);
+        Tarot cupsPage = new Tarot(
+                "Page of Cups",
+                11,
+                "The Querent will be connected; a studious youth; news, message; application, reflection, meditation; also these things directed to business.",
+                "Cups",
+                "A fair, pleasing, somewhat effeminate page, of studious and intent aspect, contemplates a fish rising from a cup to look at him. It is the pictures of the mind taking form.",
+                "http://www.learntarot.com/bigjpgs/cups11.jpg");
+        tarotRepository.save(cupsPage);
 
-        //        Tarot cups01 = new Tarot(
-//                "",
-//                1,
-//                "",
-//                "Cups",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
-//        tarotRepository.save(cups01);
+        Tarot cupsKnight = new Tarot(
+                "Knight of Cups",
+                12,
+                "Arrival, approach--sometimes that of a messenger; advances, proposition, demeanour, invitation, incitement.",
+                "Cups",
+                "Graceful, but not warlike; riding quietly, wearing a winged helmet, referring to those higher graces of the imagination which sometimes characterize this card.",
+                "http://www.learntarot.com/bigjpgs/cups12.jpg");
+        tarotRepository.save(cupsKnight);
 
-        //        Tarot cups01 = new Tarot(
-//                "",
-//                1,
-//                "",
-//                "Cups",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
-//        tarotRepository.save(cups01);
+        Tarot cupsQueen = new Tarot(
+                "Queen of Cups",
+                13,
+                "Good, fair woman; honest, devoted woman, who will do service to the Querent; loving intelligence, and hence the gift of vision; success, happiness, pleasure; also wisdom, virtue; a perfect spouse and a good mother.",
+                "Cups",
+                "Beautiful, fair, dreamy--as one who sees visions in a cup. This is, however, only one of her aspects; she sees, but she also acts, and her activity feeds her dream.",
+                "http://www.learntarot.com/bigjpgs/cups13.jpg");
+        tarotRepository.save(cupsQueen);
 
-        //        Tarot cups01 = new Tarot(
-//                "",
-//                1,
+        Tarot cupsKing = new Tarot(
+                "King of Cups",
+                14,
+                "Fair man, man of business, law, or divinity; responsible, disposed to oblige the Querent; also equity, art and science, including those who profess science, law and art; creative intelligence.",
+                "Cups",
+                "He holds a short sceptre in his left hand and a great cup in his right; his throne is set upon the sea; on one side a ship is riding and on the other a dolphin is leaping.",
+                "http://www.learntarot.com/bigjpgs/cups14.jpg");
+        tarotRepository.save(cupsKing);
+
+        //        Tarot cups14 = new Tarot(
+//                "King of Cups",
+//                14,
 //                "",
 //                "Cups",
 //                "",
-//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
-//        tarotRepository.save(cups01);
+//                "http://www.learntarot.com/bigjpgs/cups14.jpg");
+//        tarotRepository.save(cups14);
 
     }
 
