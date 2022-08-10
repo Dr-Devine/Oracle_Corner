@@ -382,15 +382,6 @@ public class DataLoader implements ApplicationRunner{
                 "http://www.learntarot.com/bigjpgs/wands04.jpg");
         tarotRepository.save(wands04);
 
-//        Tarot wands01 = new Tarot(
-//                "",
-//                1,
-//                "",
-//                "Wands",
-//                "",
-//                "http://www.learntarot.com/bigjpgs/wands01.jpg");
-//        tarotRepository.save(wands01);
-
         Tarot wands05 = new Tarot(
                 "Five of Wands",
                 5,
@@ -400,12 +391,102 @@ public class DataLoader implements ApplicationRunner{
                 "http://www.learntarot.com/bigjpgs/wands05.jpg");
         tarotRepository.save(wands05);
 
+        Tarot wands06 = new Tarot(
+                "Six of Wands",
+                6,
+                "Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune. In this sense it connects with the battle of life. Hence some attributions say that it is a card of gold, gain, opulence.",
+                "Wands",
+                "A posse of youths, who are brandishing staves, as if in sport or strife. It is mimic warfare",
+                "http://www.learntarot.com/bigjpgs/wands06.jpg");
+        tarotRepository.save(wands06);
+
+        Tarot wands07 = new Tarot(
+                "Seven of Wands",
+                7,
+                "It is a card of valour, for, on the surface, six are attacking one, who has, however, the vantage position. On the intellectual plane, it signifies discussion, wordy strife",
+                "Wands",
+                "A young man on a craggy eminence brandishing a staff; six other staves are raised towards him from below.",
+                "http://www.learntarot.com/bigjpgs/wands07.jpg");
+        tarotRepository.save(wands07);
+
+        Tarot wands08 = new Tarot(
+                "Eight of Wands",
+                8,
+                "Activity in undertakings, the path of such activity, swiftness, as that of an express messenger; great haste, great hope, speed towards an end which promises assured felicity.",
+                "Wands",
+                "The card represents motion through the immovable-a flight of wands through an open country; but they draw to the term of their course. That which they signify is at hand; it may be even on the threshold.",
+                "http://www.learntarot.com/bigjpgs/wands08.jpg");
+        tarotRepository.save(wands08);
+
+        Tarot wands09 = new Tarot(
+                "Nine of Wands",
+                9,
+                "The card signifies strength in opposition. If attacked, the person will meet an onslaught boldly; and his build shews, that he may prove a formidable antagonist.",
+                "Wands",
+                "The figure leans upon his staff and has an expectant look, as if awaiting an enemy.",
+                "http://www.learntarot.com/bigjpgs/wands09.jpg");
+        tarotRepository.save(wands09);
+
+        Tarot wands10 = new Tarot(
+                "Ten of Wands",
+                10,
+                "The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things. It is also a card of false-seeming, disguise, perfidy. The place which the figure is approaching may suffer from the rods that he carries",
+                "Wands",
+                "A man oppressed by the weight of the ten staves which he is carrying.",
+                "http://www.learntarot.com/bigjpgs/wands10.jpg");
+        tarotRepository.save(wands01);
+
+        Tarot wandsPage = new Tarot(
+                "Page of wands",
+                11,
+                "Dark young man, faithful, a lover, an envoy, a postman. Beside a man, he will bear favourable testimony concerning him. A dangerous rival, if followed by the Page of Cups. Has the chief qualities of his suit",
+                "Wands",
+                "In a scene similar to the former, a young man stands in the act of proclamation. He is unknown but faithful, and his tidings are strange.",
+                "http://www.learntarot.com/bigjpgs/wands11.jpg");
+        tarotRepository.save(wandsPage);
+
+        Tarot wandsKnight = new Tarot(
+                "Knight of Wands",
+                12,
+                "Departure, absence, flight, emigration. A dark young man, friendly. Change of residence.",
+                "Wands",
+                "He is shewn as if upon a journey, armed with a short wand, and although mailed is not on a warlike errand. He is passing mounds or pyramids. The motion of the horse is a key to the character of its rider.",
+                "http://www.learntarot.com/bigjpgs/wands12.jpg");
+        tarotRepository.save(wandsKnight);
+
+        Tarot wandsQueen = new Tarot(
+                "Queen of Wands",
+                13,
+                "A dark woman, countrywoman, friendly, chaste, loving, honourable. If the card beside her signifies a man, she is well disposed towards him; if a woman, she is interested in the Querent.",
+                "Wands",
+                "The Wands throughout this suit are always in leaf, as it is a suit of life and animation. Emotionally and otherwise, the Queen's personality corresponds to that of the King, but is more magnetic.",
+                "http://www.learntarot.com/bigjpgs/wands13.jpg");
+        tarotRepository.save(wandsQueen);
+
+        Tarot wandsKing = new Tarot(
+                "King of Wands",
+                14,
+                "Dark man, friendly, countryman, generally married, honest and conscientious.",
+                "Wands",
+                "The physical and emotional nature to which this card is attributed is dark, ardent, lithe, animated, impassioned, noble. The King uplifts a flowering wand, and wears, like his three correspondences in the remaining suits, what is called a cap of maintenance beneath his crown.",
+                "http://www.learntarot.com/bigjpgs/wands14.jpg");
+        tarotRepository.save(wands01);
+
+        //        Tarot wands01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Wands",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/wands01.jpg");
+//        tarotRepository.save(wands01);
+
         Tarot cups06 = new Tarot(
                 "Six of Cups",
                 6,
-                "A card of the past and of memories. Looking back on childhood, happiness, enjoyment, but coming rather from the past. Things that have vanished.",
+                "On the surface, it is a victor triumphing, but it is also great news, such as might be carried in state by the King's courier; it is expectation crowned with its own desire, the crown of hope, and so forth.",
                 "Cups",
-                "Children in an old garden, their cups filled with flowers",
+                "A laurelled horseman bears one staff adorned with a laurel crown; footmen with staves are at his side.",
                 "http://www.learntarot.com/bigjpgs/cups06.jpg");
         tarotRepository.save(cups06);
 
