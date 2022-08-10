@@ -220,6 +220,15 @@ public class DataLoader implements ApplicationRunner{
         );
         tarotRepository.save(world);
 
+        Tarot sword01 = new Tarot(
+                "The Ace of Swords",
+                1,
+                "Triumph, the excessive degree in everything, conquest, triumph of force. It is a card of great force, in love as well as in hatred.",
+                "Swords",
+                "A hand issues from a cloud, grasping as word, the point of which is encircled by a crown.",
+                "http://www.learntarot.com/bigjpgs/swords01.jpg");
+        tarotRepository.save(sword01);
+
         Tarot swords05 = new Tarot(
                 "Five of Swords",
                 5,
