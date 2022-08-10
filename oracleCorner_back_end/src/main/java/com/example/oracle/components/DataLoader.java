@@ -472,14 +472,50 @@ public class DataLoader implements ApplicationRunner{
                 "http://www.learntarot.com/bigjpgs/wands14.jpg");
         tarotRepository.save(wands01);
 
-        //        Tarot wands01 = new Tarot(
+        //        Tarot cups01 = new Tarot(
 //                "",
 //                1,
 //                "",
-//                "Wands",
+//                "Cups",
 //                "",
-//                "http://www.learntarot.com/bigjpgs/wands01.jpg");
-//        tarotRepository.save(wands01);
+//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+//        tarotRepository.save(cups01);
+
+        //        Tarot cups01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Cups",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+//        tarotRepository.save(cups01);
+
+        //        Tarot cups01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Cups",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+//        tarotRepository.save(cups01);
+
+        //        Tarot cups01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Cups",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+//        tarotRepository.save(cups01);
+
+        //        Tarot cups01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Cups",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+//        tarotRepository.save(cups01);
 
         Tarot cups06 = new Tarot(
                 "Six of Cups",
@@ -490,6 +526,33 @@ public class DataLoader implements ApplicationRunner{
                 "http://www.learntarot.com/bigjpgs/cups06.jpg");
         tarotRepository.save(cups06);
 
+        //        Tarot cups01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Cups",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+//        tarotRepository.save(cups01);
+
+        //        Tarot cups01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Cups",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+//        tarotRepository.save(cups01);
+
+        //        Tarot cups01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Cups",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+//        tarotRepository.save(cups01);
+
         Tarot cups10 = new Tarot(
                 "Ten of Cups",
                 10,
@@ -498,6 +561,42 @@ public class DataLoader implements ApplicationRunner{
                 "Appearance of Cups in a rainbow. It is contemplated in wonder and ecstasy by a man and woman below, evidently husband and wife.",
                 "http://www.learntarot.com/bigjpgs/cups10.jpg");
         tarotRepository.save(cups10);
+
+        //        Tarot cups01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Cups",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+//        tarotRepository.save(cups01);
+
+        //        Tarot cups01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Cups",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+//        tarotRepository.save(cups01);
+
+        //        Tarot cups01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Cups",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+//        tarotRepository.save(cups01);
+
+        //        Tarot cups01 = new Tarot(
+//                "",
+//                1,
+//                "",
+//                "Cups",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/cups01.jpg");
+//        tarotRepository.save(cups01);
 
     }
 
