@@ -69,9 +69,9 @@ const MainContainer = () => {
           <Coinflip/>
         }/>
        
-      
         
-        <Route path="/tarots" element={<TarotContainer tarots={tarots}/>
+        <Route path="/tarots" element={
+        <TarotContainer tarots={tarots}/>
       }/>
 
   

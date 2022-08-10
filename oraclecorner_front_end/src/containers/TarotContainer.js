@@ -13,8 +13,10 @@ function TarotContainer({tarots}){
 
     return(
       <>
+        <h4 className='h4 tag'>Your daily divanation</h4>
+
       <TarotList tarots={tarots}/>
-      {/* <TarotForm/> */}
+      
       </>
     )
 

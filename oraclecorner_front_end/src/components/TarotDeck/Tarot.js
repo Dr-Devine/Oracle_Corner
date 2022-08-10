@@ -6,14 +6,24 @@ const Tarot = ({ tarot }) => {
   if (!tarot) {
     return "Loading..."
   }
-  const url = "/Tarot/" + tarot.id;
+
+  const url = "/tarots/" + tarot.id;
   return (
+    
     <Fragment>
       <p>
-        <h1>hello</h1>
+
+        {/* <h1>hello</h1> */}
         <Link to={url} className="name">
-          {tarot.name}
+          <p>{tarot.name} :</p>
+           <p>{ tarot.value}:</p>
+           <p className='bob'>suit:{tarot.suit}:</p>
+           <img src={tarot.urlimage} height={200} ></img>
         </Link>
+        
+
+       
+        
       </p>
 
     </Fragment>
