@@ -598,14 +598,133 @@ public class DataLoader implements ApplicationRunner{
                 "http://www.learntarot.com/bigjpgs/cups14.jpg");
         tarotRepository.save(cupsKing);
 
-        //        Tarot cups14 = new Tarot(
-//                "King of Cups",
+        //        Tarot pentacles01 = new Tarot(
+//                "Ace of Pentacles",
+//                01,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents01.jpg");
+//        tarotRepository.save(pentacles01);
+
+        //        Tarot pentacles02 = new Tarot(
+//                "Two of Pentacles",
+//                02,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents02.jpg");
+//        tarotRepository.save(pentacles02);
+
+        //        Tarot pentacles03 = new Tarot(
+//                "Three of Pentacles",
+//                03,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents03.jpg");
+//        tarotRepository.save(pentacles03);
+
+        //        Tarot pentacles04 = new Tarot(
+//                "Four of Pentacles",
+//                04,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents04.jpg");
+//        tarotRepository.save(pentacles04);
+
+        //        Tarot pentacles05 = new Tarot(
+//                "Five of Pentacles",
+//                05,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents05.jpg");
+//        tarotRepository.save(pentacles05);
+
+        //        Tarot pentacles06 = new Tarot(
+//                "Six of Pentacles",
+//                06,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents06.jpg");
+//        tarotRepository.save(pentacles06);
+
+        //        Tarot pentacles07 = new Tarot(
+//                "Seven of Pentacles",
+//                07,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents07.jpg");
+//        tarotRepository.save(pentacles07);
+
+        //        Tarot pentacles08 = new Tarot(
+//                "Eight of Pentacles",
+//                08,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents08.jpg");
+//        tarotRepository.save(pentacles08);
+
+        //        Tarot pentacles09 = new Tarot(
+//                "Nine of Pentacles",
+//                09,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents09.jpg");
+//        tarotRepository.save(pentacles09);
+
+        //        Tarot pentacles10 = new Tarot(
+//                "Ten of Pentacles",
+//                10,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents10.jpg");
+//        tarotRepository.save(pentacles10);
+
+        //        Tarot pentaclesPage = new Tarot(
+//                "Page of Pentacles",
+//                11,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents11.jpg");
+//        tarotRepository.save(pentaclesPage);
+
+        //        Tarot pentaclesKnight = new Tarot(
+//                "Knight of Pentacles",
+//                12,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents12.jpg");
+//        tarotRepository.save(pentaclesKnight);
+
+        //        Tarot pentaclesQueen = new Tarot(
+//                "Queen of Pentacles",
 //                14,
 //                "",
-//                "Cups",
+//                "Pentacles",
 //                "",
-//                "http://www.learntarot.com/bigjpgs/cups14.jpg");
-//        tarotRepository.save(cups14);
+//                "http://www.learntarot.com/bigjpgs/pents14.jpg");
+//        tarotRepository.save(pentaclesQueen);
+
+        //        Tarot pentaclesKing = new Tarot(
+//                "King of Pentacles",
+//                14,
+//                "",
+//                "Pentacles",
+//                "",
+//                "http://www.learntarot.com/bigjpgs/pents14.jpg");
+//        tarotRepository.save(pentaclesKing);
+
+
 
     }
 
