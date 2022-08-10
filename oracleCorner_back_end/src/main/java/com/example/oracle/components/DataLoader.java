@@ -430,11 +430,11 @@ public class DataLoader implements ApplicationRunner{
         Tarot wands10 = new Tarot(
                 "Ten of Wands",
                 10,
-                "The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things. It is also a card of false-seeming, disguise, perfidy. The place which the figure is approaching may suffer from the rods that he carries",
+                "The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things. It is also a card of false-seeming, disguise, perfidy.",
                 "Wands",
                 "A man oppressed by the weight of the ten staves which he is carrying.",
                 "http://www.learntarot.com/bigjpgs/wands10.jpg");
-        tarotRepository.save(wands01);
+        tarotRepository.save(wands10);
 
         Tarot wandsPage = new Tarot(
                 "Page of wands",
@@ -468,9 +468,9 @@ public class DataLoader implements ApplicationRunner{
                 14,
                 "Dark man, friendly, countryman, generally married, honest and conscientious.",
                 "Wands",
-                "The physical and emotional nature to which this card is attributed is dark, ardent, lithe, animated, impassioned, noble. The King uplifts a flowering wand, and wears, like his three correspondences in the remaining suits, what is called a cap of maintenance beneath his crown.",
+                "The physical and emotional nature to which this card is attributed is dark, ardent, lithe, animated, impassioned, noble. The King uplifts a flowering wand, and wears, like his three correspondences in the remaining suits.",
                 "http://www.learntarot.com/bigjpgs/wands14.jpg");
-        tarotRepository.save(wands01);
+        tarotRepository.save(wandsKing);
 
         Tarot cups01 = new Tarot(
                 "Ace of Cups",
@@ -600,7 +600,7 @@ public class DataLoader implements ApplicationRunner{
 
         Tarot pentacles01 = new Tarot(
                 "Ace of Pentacles",
-                01,
+                1,
                 "Perfect contentment, felicity, ecstasy; also speedy intelligence; gold.",
                 "Pentacles",
                 "A hand--issuing, as usual, from a cloud--holds up a pentacle.",
@@ -609,7 +609,7 @@ public class DataLoader implements ApplicationRunner{
 
         Tarot pentacles02 = new Tarot(
                 "Two of Pentacles",
-                02,
+                2,
                 "On the one hand it is represented as a card of gaiety, recreation and its connexions, which is the subject of the design; but it is read also as news and messages in writing, as obstacles, agitation, trouble, embroilment.",
                 "Pentacles",
                 "A young man, in the act of dancing, has a pentacle in either hand, and they are joined by that endless cord which is like the number 8 reversed.",
@@ -618,7 +618,7 @@ public class DataLoader implements ApplicationRunner{
 
         Tarot pentacles03 = new Tarot(
                 "Three of Pentacles",
-                03,
+                3,
                 "Trade, skilled labour; usually, however, regarded as a card of nobility, aristocracy, renown, glory.",
                 "Pentacles",
                 "A sculptor at his work in a monastery. Compare the design which illustrates the Eight of Pentacles. The apprentice or amateur therein has received his reward and is now at work in earnest.",
@@ -627,7 +627,7 @@ public class DataLoader implements ApplicationRunner{
 
         Tarot pentacles04 = new Tarot(
                 "Four of Pentacles",
-                04,
+                4,
                 "The surety of possessions, cleaving to that which one has, gift, legacy, inheritance.",
                 "Pentacles",
                 "A crowned figure, having a pentacle over his crown, clasps another with hands and arms; two pentacles are under his feet. He holds to that which he has.",
@@ -636,7 +636,7 @@ public class DataLoader implements ApplicationRunner{
 
         Tarot pentacles05 = new Tarot(
                 "Five of Pentacles",
-                05,
+                5,
                 "The card foretells material trouble above all, whether in the form illustrated--that is, destitution--or otherwise.",
                 "Pentacles",
                 "Two mendicants in a snow-storm pass a lighted casement.",
@@ -645,7 +645,7 @@ public class DataLoader implements ApplicationRunner{
 
         Tarot pentacles06 = new Tarot(
                 "Six of Pentacles",
-                06,
+                6,
                 "Presents, gifts, gratification another account says attention, vigilance now is the accepted time, present prosperity, etc.",
                 "Pentacles",
                 "A person in the guise of a merchant weighs money in a pair of scales and distributes it to the needy and distressed.",
@@ -654,7 +654,7 @@ public class DataLoader implements ApplicationRunner{
 
         Tarot pentacles07 = new Tarot(
                 "Seven of Pentacles",
-                07,
+                7,
                 "These are exceedingly contradictory; in the main, it is a card of money, business, barter; but one reading gives altercation, quarrels--and another innocence, ingenuity, purgation.",
                 "Pentacles",
                 "A young man, leaning on his staff, looks intently at seven pentacles attached to a clump of greenery on his right; one would say that these were his treasures and that his heart was there.",
