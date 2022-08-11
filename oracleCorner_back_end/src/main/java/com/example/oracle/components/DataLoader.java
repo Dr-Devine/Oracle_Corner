@@ -28,7 +28,8 @@ public class DataLoader implements ApplicationRunner{
 
         User ebony = new User(
                 "Ebony",
-                "Destiny");
+                "Destiny",
+                "https://cdna.artstation.com/p/assets/images/images/018/615/560/original/evgeny-starostin-magicbook2.gif");
         userRepository.save(ebony);
 
         Tarot fool = new Tarot(

@@ -21,11 +21,20 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
+    @Column(name = "userImage")
+    private String userImage;
+
     @JsonBackReference
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
     private List<Tarot> tarots;
 
+    public String getUserImage() {
+        return userImage;
+    }
 
+    public void setUserImage(String userImage) {
+        this.userImage = userImage;
+    }
 
     public Long getId() {
         return id;
@@ -59,9 +68,10 @@ public class User {
         this.tarots = tarots;
     }
 
-    public User(String firstName, String lastName) {
+    public User(String firstName, String lastName, String userImage) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.userImage = userImage;
         this.tarots = new ArrayList<Tarot>();
 
     }

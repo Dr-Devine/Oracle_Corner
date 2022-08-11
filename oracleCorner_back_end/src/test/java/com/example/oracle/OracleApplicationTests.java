@@ -32,7 +32,7 @@ public class OracleApplicationTests {
 
 	@Test
 	public void getFirstName(){
-		User user = new User("Jet", "Carol");
+		User user = new User("Jet", "Carol", "https://cdna.artstation.com/p/assets/images/images/018/615/560/original/evgeny-starostin-magicbook2.gif");
 		assertEquals("Jet", user.getFirstName());
 	}
 
