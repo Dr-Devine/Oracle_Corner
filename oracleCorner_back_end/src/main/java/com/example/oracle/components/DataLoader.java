@@ -1,6 +1,8 @@
 package com.example.oracle.components;
 import com.example.oracle.models.Tarot;
+import com.example.oracle.models.User;
 import com.example.oracle.repositories.TarotRepository;
+import com.example.oracle.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -15,11 +17,19 @@ public class DataLoader implements ApplicationRunner{
     @Autowired
     TarotRepository tarotRepository;
 
+    @Autowired
+    UserRepository userRepository;
+
     public DataLoader() {
 
     }
 
     public void run(ApplicationArguments args) {
+
+        User ebony = new User(
+                "Ebony",
+                "Destiny");
+        userRepository.save(ebony);
 
         Tarot fool = new Tarot(
                 "The Fool",

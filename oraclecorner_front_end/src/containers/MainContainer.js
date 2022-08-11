@@ -5,7 +5,7 @@ import Request from '../helpers/request.js';
 import Coinflip from '../components/coinFlip/Coinflip.js';
 import TarotContainer from './TarotContainer.js';
 import TarotDetail from '../components/TarotDeck/TarotDetail.js'
-
+import Home from '../components/Home.js';
 
 
 
@@ -72,7 +72,11 @@ const MainContainer = () => {
         
         <Route path="/tarots" element={
         <TarotContainer tarots={tarots}/>
-      }/>
+        }/>
+
+        <Route path="/home" element={
+          <Home/>
+        }/>
 
   
         </Routes>

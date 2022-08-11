@@ -3,14 +3,17 @@ package com.example.oracle.models;
 
 
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
+import java.io.Serializable;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Table(name = "tarotCards")
-public class Tarot {
+public class Tarot implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -33,6 +36,11 @@ public class Tarot {
 
     @Column(name = "image")
     private String URLImage;
+
+    @JsonIgnoreProperties({"tarots"})
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 
     public Tarot(String name, int value, String meaning, String suit, String description, String URLImage) {
 
@@ -103,6 +111,11 @@ public class Tarot {
         this.description = description;
     }
 
+    public User getUser() {
+        return user;
+    }
 
-
+    public void setUser(User user) {
+        this.user = user;
+    }
 }

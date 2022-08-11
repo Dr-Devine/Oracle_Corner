@@ -9,22 +9,22 @@ const Tarot = ({ tarot }) => {
 
   const url = "/tarots/" + tarot.id;
   return (
-    
+
     <Fragment>
-      <p>
+      <div>
 
         {/* <h1>hello</h1> */}
         <Link to={url} className="name">
           <p>{tarot.name} :</p>
-           <p>{ tarot.value}:</p>
-           <p className='bob'>suit:{tarot.suit}:</p>
-           <img src={tarot.urlimage} height={200} ></img>
+          <p>{tarot.value}:</p>
+          <p className='bob'>suit:{tarot.suit}:</p>
+          <img src={tarot.urlimage} height={200} ></img>
         </Link>
-        
 
-       
-        
-      </p>
+
+
+
+      </div>
 
     </Fragment>
   )
