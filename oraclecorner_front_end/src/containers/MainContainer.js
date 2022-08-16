@@ -8,6 +8,7 @@ import TarotDetail from '../components/TarotDeck/TarotDetail.js'
 import Home from '../components/TarotDeck/Home.js';
 import Profile from '../components/TarotDeck/Profile.js';
 import About from '../components/TarotDeck/About.js';
+import Sigil from '../components/TarotDeck/Sigil.js';
 
 
 const MainContainer = () => {
@@ -91,6 +92,10 @@ const MainContainer = () => {
         <Route path="/coinflip" element={
           <Coinflip />
         } />
+
+        <Route path="/sigil" element={
+          <Sigil/>
+        }/>
 
         <Route path="/tarots" element={
           <TarotContainer tarots={tarots} getTarots={getTarots} saveTarotToProfile={saveTarotToProfile} />

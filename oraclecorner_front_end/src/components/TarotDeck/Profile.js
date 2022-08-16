@@ -3,7 +3,7 @@ import TarotList from './TarotList'
 
 const Profile = ({ savedTarots, removeTarot, users }) => {
 
-  const [currentUser, setCurrentUser ] = React.useState(null);
+  const [currentUser, setCurrentUser] = React.useState(null);
 
   React.useEffect(() => {
     if (!currentUser) {
@@ -15,12 +15,14 @@ const Profile = ({ savedTarots, removeTarot, users }) => {
 
   return (
     <>
-    {currentUser && 
-    <div>
-      <h1 className='usersname' style={{'color': 'white'}}>Hello {currentUser.firstName} {currentUser.lastName}</h1>
-      <img className='usersimage' src={currentUser.userImage}></img>
-    </div>
-    }
+      {currentUser &&
+        <div>
+          <img className='usersimage' src={currentUser.userImage}></img>
+          <h4  className='usersname' style={{ 'color': 'white' }}>Hello:   { currentUser.firstName} {currentUser.lastName}</h4>
+          <img className='Sigil2' src={"../images/Sigil.png"} height={200}  ></img>
+          <img className='Sigil3' src={"../images/removesigil.png"} height={25}  ></img>
+        </div>
+      }
       <TarotList savedTarots={savedTarots} removeTarot={removeTarot} />
     </>
   )

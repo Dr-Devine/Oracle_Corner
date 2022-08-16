@@ -106,8 +106,6 @@ div.container {
 .button {
   padding: 1rem;
   background-color: skyblue;
-  text-align: center;
-  
 }
 
 /* below is coin css */
@@ -219,6 +217,8 @@ div.container {
   height: 74px;
   border: 2px solid rgb(100, 96, 96);
   border: auto;
+  box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
+
 
 }
 
@@ -244,6 +244,8 @@ div.container {
   height: 100px;
   border: 2px solid rgb(100, 96, 96);
   border: auto;
+  box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
+
 }
 
 .aboutpage{
@@ -268,6 +270,8 @@ div.container {
   text-align: center;
   border: 2px solid rgb(100, 96, 96);
   border: auto;
+  box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
+
   
 }
 
@@ -301,9 +305,51 @@ a{
   border: auto;
   margin: revert;
   width: fit-content;
-top: 15%;
+  top: 15%;
+  font-size: x-large;
+  box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
+
 }
 
+.infoOnCards{
+  height: fit-content;
+  box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
+
+}
+
+.infoOnCards1{
+  height: fit-content;
+  box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
+
+}
+
+.divSigil{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sigilp{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Sigil2{
+  position: relative;
+  top: -310px;
+  right: -619px;
+}
+
+.Sigil3{
+  position: relative;
+  top: -246px;
+  right: -460px;
+  
+}
+
+
+  
 
 
 
