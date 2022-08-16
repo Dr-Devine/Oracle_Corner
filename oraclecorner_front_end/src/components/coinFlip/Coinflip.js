@@ -28,9 +28,9 @@ const Coinflip = () => {
                 </div>
                 <button id="flip" onClick={() => flipCoin()}>Flip your fate!</button>
                 <p>
-                    Heads: <span id="HeadsCount">{headCounter}</span>
+                    No: <span id="HeadsCount">{headCounter}</span>
                     <br />
-                    Tails: <span id="TailsCount">{tailCounter}</span>
+                    Yes: <span id="TailsCount">{tailCounter}</span>
                 </p>
             </div>
         </>

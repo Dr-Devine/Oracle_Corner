@@ -1,27 +1,32 @@
-import React from 'react';
-import Tarot from './Tarot.js';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-const TarotList = ({tarots}) => {
+const TarotList = ({ savedTarots, removeTarot }) => {
 
-	const tarotElements = tarots.map((tarot, index) => {
-		return(
-			<li key={index} className="component-item">
-				<div className="component">
-					<Tarot tarot={tarot}/>
-				</div>
+	const tarots = savedTarots.map((tarot) => {
+		return (
+			<li key={tarot.id}>
+				<p>{tarot.name}</p>
+
+				<Link
+					key={tarot.id}
+					to={{
+						pathname: `/tarots/${tarot.id}`
+					}}>
+					<img className='tarrotImg' src={tarot.urlimage} height={200} ></img>
+					<p>{tarot.meaning}</p>
+				</Link>
+				<button onClick={() => removeTarot(tarot.id)}>Remove Card</button>
 			</li>
-		)	
+		)
 	})
 
-	
-
-
 	return (
-		
-		<ul className='component-list'>
-			{tarotElements}
-		</ul>
-     
+		<>
+			{tarots}
+		</>
 	)
+
 }
- export default TarotList;
+
+export default TarotList;

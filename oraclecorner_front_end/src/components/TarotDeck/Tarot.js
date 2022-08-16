@@ -4,28 +4,20 @@ import { Link } from 'react-router-dom';
 const Tarot = ({ tarot }) => {
 
   if (!tarot) {
-    return "Loading..."
+    return "getting info..."
   }
 
   const url = "/tarots/" + tarot.id;
   return (
 
+
     <Fragment>
-      <div>
-
-        {/* <h1>hello</h1> */}
-        <Link to={url} className="name">
-          <p>{tarot.name} :</p>
-          <p>{tarot.value}:</p>
-          <p className='bob'>suit:{tarot.suit}:</p>
-          <img src={tarot.urlimage} height={200} ></img>
-        </Link>
-
-
-
-
-      </div>
-
+      <Link to={url} className="name">
+        <p>{tarot.name} :</p>
+        <p>{tarot.value}:</p>
+        <p className='bob'>suit:{tarot.suit}:</p>
+        <img className='tarrotImg' src={tarot.urlimage} height={200} ></img>
+      </Link>
     </Fragment>
   )
 }

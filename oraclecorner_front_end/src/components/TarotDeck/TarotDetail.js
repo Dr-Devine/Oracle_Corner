@@ -1,15 +1,13 @@
 import React from 'react';
 import Tarot from "./Tarot";
 
-const TarotDetail = ({ tarot, handleDelete, handleSave }) => {
+const TarotDetail = ({ tarot, handleSave }) => {
 
     if (tarot) {
 
-        // const onDelete = () => {
-        //     handleDelete(tarot.id)
-        // }
+
         const onSave = () => {
-          handleSave(tarot.id)
+            handleSave(tarot.id)
         }
 
         return (
@@ -18,16 +16,15 @@ const TarotDetail = ({ tarot, handleDelete, handleSave }) => {
                     <Tarot tarot={tarot} />
                     <ul>
                     </ul>
-                    {/* <button onClick={onDelete}>Undo {tarot.name}</button> */}
                     <button onClick={onSave}>Save {tarot.name}</button>
                 </div>
             </>
         )
-        
+
     } else {
         return (
             <>
-                <p>waiting...</p>
+                <p>timeout...</p>
             </>
         )
     }

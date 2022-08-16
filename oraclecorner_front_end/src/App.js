@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
-
 import MainContainer from './containers/MainContainer'
 
-function App(){
-  return(
+function App() {
+  return (
     <div>
-    <MainContainer/>
+      <MainContainer />
     </div>
-  
+
   )
 }
 
