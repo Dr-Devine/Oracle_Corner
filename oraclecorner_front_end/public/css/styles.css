@@ -248,7 +248,7 @@ div.container {
 
 }
 
-.aboutpage{
+.aboutpage {
   color: #EEEEEE;
   top: 50%;
   left: 50%;
@@ -272,18 +272,18 @@ div.container {
   border: auto;
   box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
 
-  
+
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 .tarots-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
 }
 
 
@@ -294,64 +294,87 @@ a{
   align-items: center;
 }
 
-.usersimage{
+.usersimage {
   height: 15rem;
   border: 2px solid rgb(100, 96, 96);
   border: auto;
 }
 
-.usersname{
-  border: 2px solid rgb(100, 96, 96);
-  border: auto;
+.usersname {
   margin: revert;
   width: fit-content;
   top: 15%;
   font-size: x-large;
+  border: 2px solid rgb(100, 96, 96);
+  border: auto;
   box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
 
 }
 
-.infoOnCards{
+.infoOnCards {
   height: fit-content;
   box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
 
 }
 
-.infoOnCards1{
+.infoOnCards1 {
   height: fit-content;
   box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
 
 }
 
-.divSigil{
+.divSigil {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.sigilp{
+.sigilp {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  font-family: cursive;
+  font-size: x-large;
+  position: relative;
+  top: -7px;
+  right: -25px;
 }
 
-.Sigil2{
+.Sigil2 {
   position: relative;
   top: -310px;
   right: -619px;
 }
 
-.Sigil3{
+.Sigil3 {
   position: relative;
   top: -246px;
   right: -460px;
-  
+
 }
 
+.Sigil4 {
+  position: relative;
+  top: 98px;
+  right: -281px;
+}
 
-  
+.savedsigilslist{
+  position: relative;
+  font-size: x-large;
+  top: 97px;
+  right: -651px;
+  width: fit-content;
+  border: 2px solid rgb(100, 96, 96);
+  box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
+}
 
-
-
-
-
+.savedtarotsslist{
+  position: relative;
+  font-size: x-large;
+  top: -13px;
+  right: 9px;
+  width: fit-content;
+  border: 2px solid rgb(100, 96, 96);
+  box-shadow: inset 0 0 45px rgba(255, 255, 255, .3), 0 12px 20px -10px rgba(0, 0, 0, .4);
+}

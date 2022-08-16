@@ -15,12 +15,15 @@ const Profile = ({ savedTarots, removeTarot, users }) => {
 
   return (
     <>
-      {currentUser &&
+      {currentUser && 
         <div>
+          <p className='savedsigilslist'>Saved Sigils</p>
           <img className='usersimage' src={currentUser.userImage}></img>
-          <h4  className='usersname' style={{ 'color': 'white' }}>Hello:   { currentUser.firstName} {currentUser.lastName}</h4>
+          <h4  className='usersname' style={{ 'color': 'white' }}>Hello:   {currentUser.firstName} {currentUser.lastName}</h4>
           <img className='Sigil2' src={"../images/Sigil.png"} height={200}  ></img>
           <img className='Sigil3' src={"../images/removesigil.png"} height={25}  ></img>
+          <img className='Sigil4' src={"../images/Sigil1.png"} height={300}  ></img>
+          <p className='savedtarotsslist'>Saved Tarots</p>
         </div>
       }
       <TarotList savedTarots={savedTarots} removeTarot={removeTarot} />
